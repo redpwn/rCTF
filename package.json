@@ -54,7 +54,7 @@
     "node-pg-migrate": "5.5.0",
     "nodemailer": "6.4.16",
     "pg": "8.3.3",
-    "redis": "3.0.2",
+    "redis": "3.1.1",
     "uuid": "8.3.0",
     "yaml": "1.10.0"
   },
