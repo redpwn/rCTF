@@ -48,6 +48,7 @@
     "fastify-static": "3.2.0",
     "got": "11.5.2",
     "hyperid": "2.0.5",
+    "ipfs-http-client": "50.1.2",
     "jss-plugin-global": "10.4.0",
     "mailgun-js": "0.22.0",
     "mustache": "4.0.1",

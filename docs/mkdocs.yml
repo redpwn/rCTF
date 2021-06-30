@@ -26,6 +26,7 @@ nav:
     - Uploads:
       - Index: providers/uploads/index.md
       - GCS: providers/uploads/gcs.md
+      - IPFS: providers/uploads/ipfs.md
       - Local: providers/uploads/local.md
   - Integrations:
     - CTFtime: integrations/ctftime.md

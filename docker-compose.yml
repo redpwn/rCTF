@@ -35,6 +35,5 @@ services:
       - rctf
     volumes:
       - ./data/rctf-postgres:/var/lib/postgresql/data
-
 networks:
   rctf: {}
