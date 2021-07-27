@@ -73,12 +73,26 @@ jobs:
           yarn typecheck
 
   test:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node: [14, 15]
+        node: [14]
         postgres: [12]
         redis: [6]
+        os: [ubuntu-latest]
+        include:
+          - node: 15
+            postgres: 12
+            redis: 6
+            os: ubuntu-latest
+          - node: 14
+            postgres: 13
+            redis: 6
+            os: ubuntu-latest
+          - node: 14
+            postgres: 12
+            redis: 6
+            os: windows-latest
     services:
       postgres:
         image: postgres:${{ matrix.postgres }}
